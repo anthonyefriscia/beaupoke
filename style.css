@@ -47,6 +47,20 @@ h1 {
     max-height: 80px;
 }
 
+.portrait {
+    height: auto;
+    width: 280px;
+}
+
+.jpgcontainer {
+    display: flex;
+    background-color: rgb(241, 255, 116);
+    padding: 32px;
+    justify-content: flex-end;
+    margin-right: 128px;
+    margin-bottom: 12px;
+}
+
 .tagleft {
     display: flex;
     flex-direction: column;
@@ -59,6 +73,7 @@ h1 {
 
 .tagline {
     justify-content: space-between;
+    flex-direction: row;
     max-height: 450px; 
 }
 
@@ -98,6 +113,7 @@ button {
     font-size: xx-large;
     height: 80px;
     width: 200px;
+    border-radius: 20%;
 }
 
 .featured {
@@ -121,7 +137,6 @@ button {
 .photoplace {
     background-color: rgb(241, 255, 116);
     flex-wrap: wrap;
-    border-radius: 15%;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
