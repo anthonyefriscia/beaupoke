@@ -1,0 +1,7 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header, .tagline {
+    background-color: rgb(198, 218, 255);
+}
