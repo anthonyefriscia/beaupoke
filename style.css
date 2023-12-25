@@ -30,6 +30,7 @@ ul {
     list-style: none;
     font-weight: 600;
     margin-right: 32px;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -106,14 +107,18 @@ h1 {
     align-items: center;
 }
 
-button {
+#bookhere {
     background-color: #32587c;
     color: white;
     font-weight: 900;
     font-size: xx-large;
     height: 80px;
     width: 200px;
-    border-radius: 20%;
+    border-radius: 15%;
+}
+
+#archive {
+
 }
 
 .featured {
@@ -122,10 +127,11 @@ button {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    background-color: #32587c;
 }
 
 .footer {
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(194, 194, 194);
     display: flex;
     justify-content: center;
     align-content: center;
@@ -142,6 +148,10 @@ button {
     flex-wrap: wrap;
     outline: 3px;
     outline-color: black;
+}
+
+#f-artwork {
+    color: white;
 }
 
 .juice {
