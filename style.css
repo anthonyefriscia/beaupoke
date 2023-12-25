@@ -43,6 +43,11 @@ h1 {
     flex-direction: column;
 }
 
+.booking {
+    display: flex;
+    flex-direction: column;
+}
+
 .featured {
     display: flex; 
     flex-direction: column;
@@ -61,8 +66,14 @@ h1 {
 }
 
 .photoplace {
-    background-color: aqua;
+    background-color: rgb(241, 255, 116);
     flex-wrap: wrap;
+    border-radius: 15%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    outline: 3px;
+    outline-color: black;
 }
 
 .top4 {
