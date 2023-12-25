@@ -6,14 +6,16 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .header, .tagline {
-    background-color: #046d80;
+    background-color: #32587c;
     color: white;
     margin: 0;
     padding: 0;
+    flex-grow: 1;
+    display: flex;
 }
 
 ul {
@@ -29,20 +31,27 @@ h1 {
     margin: 0;
     margin-left: 16px;
     font-weight: 920;
+    color: rgb(241, 255, 116);
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
 }
 
+.tagline {
+    flex-direction: column;
+}
+
+.featured {
+    display: flex;
+}
+
 .footer {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(175, 175, 175);
     display: flex;
     justify-content: center;
     align-content: center;
-    color: white;
-    padding: 32px;
+    color: 33495e;
+    padding: 24px;
     font-weight: 600;
-    margin-top: blast
 }
