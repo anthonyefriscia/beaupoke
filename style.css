@@ -51,10 +51,45 @@ button {
 
 .header {
     justify-content: space-between;
+    padding-top: 12px;
+    max-height: 80px;
+}
+
+.tagleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 32px;
+    padding-top: 0;
 }
 
 .tagline {
-    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#statement {
+    display: flex;
+    font-size: large;
+    font-size: x-large;
+}
+
+#quote {
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.pph {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(255, 165, 101);
+    min-height: 300px;
+    min-width: 600px;
+    align-self: flex-start;
+    border-radius: 5%;
+    margin: 32px;
 }
 
 #apt {
