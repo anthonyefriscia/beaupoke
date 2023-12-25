@@ -40,15 +40,6 @@ h1 {
     color: rgb(241, 255, 116);
 }
 
-button {
-    background-color: #32587c;
-    color: white;
-    font-weight: 900;
-    font-size: xx-large;
-    height: 80px;
-    width: 200px;
-}
-
 .header {
     justify-content: space-between;
     padding-top: 12px;
@@ -90,15 +81,22 @@ button {
     text-decoration: underline;
 }
 
-#aptpara {
-}
-
 .booking {
     display: flex;
     flex-direction: column;
     background-color: rgb(241, 255, 116);
     min-height: 400px;
     justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #32587c;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+    height: 80px;
+    width: 200px;
 }
 
 .featured {
