@@ -57,6 +57,11 @@ button {
     flex-direction: column;
 }
 
+#apt {
+    color: purple;
+    text-decoration: underline;
+}
+
 .booking {
     display: flex;
     flex-direction: column;
