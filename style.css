@@ -104,6 +104,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .footer {
@@ -131,7 +132,7 @@ button {
     height: auto;
     width: 360px;
     border: 4px black;
-    padding: 12px;
+    padding: 24px;
 }
  
 .top4 {
