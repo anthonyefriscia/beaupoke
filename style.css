@@ -85,19 +85,6 @@ button {
     font-size: xx-large;
 }
 
-.pph {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: rgb(255, 165, 101);
-    min-height: 300px;
-    min-width: 600px;
-    align-self: flex-start;
-    border-radius: 5%;
-    margin: 32px;
-    margin-right: 200px;
-}
-
 #apt {
     color: purple;
     text-decoration: underline;
