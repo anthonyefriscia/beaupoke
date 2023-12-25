@@ -35,6 +35,15 @@ h1 {
     color: rgb(241, 255, 116);
 }
 
+button {
+    background-color: #32587c;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+    height: 80px;
+    width: 200px;
+}
+
 .header {
     justify-content: space-between;
 }
@@ -46,6 +55,7 @@ h1 {
 .booking {
     display: flex;
     flex-direction: column;
+    background-color: rgb(241, 255, 116);
 }
 
 .featured {
