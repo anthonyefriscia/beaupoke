@@ -66,13 +66,18 @@ button {
 }
 
 .tagline {
-    justify-content: space-evenly;
+    justify-content: space-between;
+    max-height: 450px; 
 }
 
 #statement {
     display: flex;
     font-size: large;
     font-size: x-large;
+    max-width: 400px;
+    max-height: 120px;
+    margin-left: 16px;
+    margin-top: 0;
 }
 
 #quote {
@@ -90,6 +95,7 @@ button {
     align-self: flex-start;
     border-radius: 5%;
     margin: 32px;
+    margin-right: 200px;
 }
 
 #apt {
@@ -97,10 +103,15 @@ button {
     text-decoration: underline;
 }
 
+#aptpara {
+}
+
 .booking {
     display: flex;
     flex-direction: column;
     background-color: rgb(241, 255, 116);
+    min-height: 400px;
+    justify-content: space-between;
 }
 
 .featured {
