@@ -127,6 +127,13 @@ button {
     outline-color: black;
 }
 
+.juice {
+    height: auto;
+    width: 360px;
+    border: 4px black;
+    padding: 12px;
+}
+ 
 .top4 {
     display: flex;
     gap: 48px;
