@@ -2,6 +2,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header, .tagline {
-    background-color: #b3f4ff;
+    background-color: #046d80;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
