@@ -57,7 +57,7 @@ h1 {
 .jpgcontainer {
     display: flex;
     background-color: rgb(241, 255, 116);
-    padding: 32px;
+    padding: 12px;
     justify-content: flex-end;
     margin-right: 128px;
     margin-bottom: 12px;
@@ -91,6 +91,16 @@ h1 {
     margin-top: 0;
 }
 
+h2 {
+    font-style: bold;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+p {
+    font-size: 16px;
+}
+
 #quote {
     font-style: italic;
     font-size: xx-large;
@@ -109,7 +119,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin: 32px;
-    border-radius: 5%;
+    border-radius: 20%;
 }
 
 #bookhere {
@@ -123,7 +133,10 @@ h1 {
 }
 
 #archive {
-
+    background-color: rgb(241, 255, 116);
+    height: 140px;
+    width: 400px;
+    font-size: 32px;
 }
 
 .featured {
@@ -138,7 +151,7 @@ h1 {
 }
 
 .footer {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-content: center;
