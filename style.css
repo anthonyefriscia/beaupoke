@@ -101,6 +101,11 @@ p {
     font-size: 16px;
 }
 
+.disclaimer1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #quote {
     font-style: italic;
     font-size: xx-large;
@@ -116,7 +121,7 @@ p {
     flex-direction: column;
     background-color: rgb(241, 255, 116);
     min-height: 400px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin: 32px;
     border-radius: 20%;
