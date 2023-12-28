@@ -56,8 +56,7 @@ h1 {
 
 .jpgcontainer {
     display: flex;
-    background-color: rgb(241, 255, 116);
-    padding: 12px;
+    background-color: rgb(0, 0, 0);
     justify-content: flex-end;
     margin-right: 128px;
     margin-bottom: 12px;
@@ -134,8 +133,8 @@ p {
     color: white;
     font-weight: 900;
     font-size: xx-large;
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 240px;
     border-radius: 15%;
 }
 
@@ -186,7 +185,7 @@ p {
     height: auto;
     width: 360px;
     border: 4px black;
-    padding: 24px;
+    padding: 12px;
 }
  
 .top4 {
