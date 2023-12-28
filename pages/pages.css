@@ -1,0 +1,39 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #32587c;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(241, 255, 116);
+}
+
+.header {
+    background-color: #17293a;
+}
+
+.infoContainer {
+
+}
+
+.info {
+    background-color: rgb(241, 255, 116);
+}
+
+.footer {
+    background-color: #17293a;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    color: 33495e;
+    padding: 24px;
+    font-weight: 600;
+    display: flex;
+}

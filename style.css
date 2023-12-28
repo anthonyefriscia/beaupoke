@@ -149,6 +149,11 @@ p {
     width: 400px;
     font-size: 32px;
     text-decoration: underline;
+    color: #17293a;
+}
+
+#vah {
+    color: #17293a;
 }
 
 .featured {
