@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     justify-content:space-between;
     min-height: 100vh;
-    background-color: #17293a;
+    background-color: #272727;
 }
 
 .header, .tagline {
@@ -46,7 +46,7 @@ h1 {
     justify-content: space-between;
     padding-top: 4px;
     max-height: 80px;
-    background-color: #17293a;
+    background-color: #272727;
     align-items: center;
 }
 
@@ -79,7 +79,7 @@ h1 {
     flex-direction: row;
     max-height: 450px; 
     flex-grow: 1;
-    background-color: #32587c;
+    background-color: #383838;
 }
 
 #statement {
@@ -132,7 +132,7 @@ p {
 }
 
 #bookhere {
-    background-color: #32587c;
+    background-color: #315e88;
     color: white;
     font-weight: 900;
     font-size: xx-large;
@@ -160,11 +160,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    background-color: #32587c;
+    background-color:  #383838;
 }
 
 .footer {
-    background-color: #17293a;
+    background-color: #272727;
     color: white;
     justify-content: center;
     align-content: center;
