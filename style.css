@@ -2,6 +2,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Doc is mostly in order from top to bottom */
+
 body {
     margin: 0;
     display: flex;
